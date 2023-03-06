@@ -19,7 +19,7 @@ function PokemonItem({ pokemons, loading, pokemonDetails }) {
                   src={item.sprites.other.home.front_default}
                   alt="pikachu"
                 />
-                <h3>{item.name} </h3>
+                <h3>{item.name}</h3>
                 <div className="pokemon-item-type">
                   {item.types.map((idx) => {
                     return (
